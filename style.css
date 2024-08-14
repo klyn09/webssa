@@ -1,0 +1,271 @@
+  body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    
+    header {
+      background-color: #333; /* Warna latar belakang header */
+      color: #fff; /* Warna teks di dalam header */
+      padding: 10px 0;
+    }
+    
+    header .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }  
+    
+    #home {
+      background: url('images/sekolah.jpg') no-repeat center center/cover;
+      color: rgb(255, 255, 255);
+      height: 70vh;
+      width: 50%;
+      padding-left: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      box-sizing: border-box;
+      border: 5px solid rgb(0, 0, 0);
+      box-shadow: 0 0 10px rgb(0, 0, 0);
+    }
+    
+    #home .content {
+      text-align: left;
+    }
+    
+    #home .content .highlighted-text {
+      background-color: rgba(255, 255, 255, 0.8); /* Warna latar belakang dengan transparansi */
+      padding: 10px;
+      border-radius: 5px;
+      display: inline-block;
+    }
+    
+    #features, #contact {
+      padding: 50px 20px;
+      text-align: center;
+    }
+    
+    .feature-item {
+      background-color: #fff;
+      margin: 20px 0;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgb(0, 0, 0);
+      display: inline-block;
+      width: 45%;
+    }
+    
+    .feature-item i {
+      color: #1e4872;
+      margin-bottom: 10px;
+    }
+    
+    form input, form textarea {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 5px;
+      border: 1px solid #ddd;
+    }
+    
+    button {
+      background-color: #0066cc;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    
+    footer {
+      background-color: #333;
+      color: rgb(255, 255, 255);
+      text-align: center;
+      padding: 10px;
+      margin-top: 20px;
+    }
+    
+    body {
+      font-family: 'Radio Canada Big', sans-serif;
+    }
+
+    /* CSS lainnya */
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .logo {
+      width: 90px;
+      height: auto;
+    }
+
+    nav {
+      flex-grow: 1;
+      display: flex;
+      justify-content: center;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      gap: 20px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: rgb(253, 253, 253);
+      padding: 10px 20px;
+      transition: background-color 0.3s;
+    }
+
+    nav ul li a:hover {
+      background-color: #f0f0f052;
+      border-radius: 5px;
+    }
+
+    .welcome-text {
+      height: 30vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: rgb(0, 0, 0);
+      font-size: 15px;
+      background-color: rgba(255, 255, 255, 0.8);
+      padding: 20px;
+      border-radius: 5px;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    
+    header {
+      background-color: #333; /* Warna latar belakang header */
+      color: #fff; /* Warna teks di dalam header */
+      padding: 10px 0;
+    }
+    
+    header .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    } 
+    
+    #home .content {
+      text-align: left;
+    }
+    
+    #features, #contact {
+      padding: 50px 20px;
+      text-align: center;
+    }
+    
+    .feature-item i {
+      color: #1e4872;
+      margin-bottom: 10px;
+    }
+    
+    form input, form textarea {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 5px;
+      border: 1px solid #ddd;
+    }
+    
+    button {
+      background-color: #0066cc;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    /* Text Section */
+    #text {
+      width: 50%; /* Adjust as needed */
+      padding: 20px;
+      box-sizing: border-box;
+    }
+    
+    /* Text Container */
+    .text-container {
+      background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+      padding: 20px;
+      border-radius: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.918); /* Shadow for better visibility */
+    }
+    
+    /* Text Content */
+    .text-content {
+      background-color: rgb(0, 0, 0); /* Dark background for text */
+      color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+    }
+    
+    .text-address h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+    
+    .text-address p {
+      margin-top: 10px;
+      font-size: 1.2em;
+    }
+    
+    .main-container {
+      display: flex; /* Mengatur layout menjadi flex */
+    }
+
+    #social-media {
+      padding: 50px 20px;
+      background-color: rgb(255, 255, 255);
+      color: rgb(0, 0, 0);
+      text-align: center;
+      box-shadow: 0 0 10px rgb(3, 3, 3);
+  }
+  
+  #social-media .social-links {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 15px; /* Jarak antara ikon */
+  }
+  
+  #social-media .social-links a {
+      color: rgb(0, 0, 0);
+      text-decoration: none;
+      font-size: 60px; /* Ukuran ikon diperbesar */
+      transition: color 0.3s;
+  }
+  
+  /* Individual Social Media Icon Colors on Hover */
+  #social-media .social-links a[href*="instagram.com"]:hover {
+    color: #E4405F; /* Warna khas Instagram */
+  }
+
+  #social-media .social-links a[href*="facebook.com"]:hover {
+    color: #1877F2; /* Warna khas Facebook */
+  }
+
+  #social-media .social-links a[href*="youtube.com"]:hover {
+    color: #FF0000; /* Warna khas YouTube */
+  }
